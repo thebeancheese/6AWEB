@@ -1,0 +1,41 @@
+/* A subtle summary box, rather than a colorful portfolio card */
+.profile-card {
+  margin: 0 0 28px;
+  padding: 17px 20px;
+  background: #f5f7fa;
+  border: 1px solid #dce3eb;
+  border-left: 3px solid #315a7b;
+  border-radius: 2px;
+}
+
+.profile-card h2 {
+  margin: 0 0 8px;
+  color: #173451;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.profile-card p {
+  margin: 0 0 8px;
+  color: #38485a;
+  font-size: 14px;
+  line-height: 1.7;
+}
+
+.profile-card .tag {
+  display: inline-block;
+  margin: 3px 0 0;
+  padding: 3px 9px;
+  background: #e5ebf1;
+  border: 1px solid #d4dfe9;
+  border-radius: 3px;
+  color: #315a7b;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+@media print {
+  .profile-card {
+    background: #ffffff;
+  }
+}

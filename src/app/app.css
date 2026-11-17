@@ -1,0 +1,62 @@
+/* Main CV page */
+:host {
+  display: block;
+}
+
+.resume {
+  max-width: 850px;
+  margin: 42px auto;
+  padding: 52px 60px 40px;
+  background: #ffffff;
+  color: #253142;
+  border: 1px solid #d9e0e8;
+  border-radius: 4px;
+  box-shadow: 0 12px 30px rgba(25, 40, 60, 0.08);
+}
+
+/* This section contains the selected-skill feedback. */
+.interaction {
+  margin-top: 28px;
+}
+
+.interaction h2 {
+  margin: 0 0 12px;
+  padding-bottom: 8px;
+  border-bottom: 1px solid #d5dce4;
+  color: #173451;
+  font-size: 16px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.interaction p {
+  margin: 0;
+  padding: 10px 14px;
+  border-left: 3px solid #315a7b;
+  background: #f3f6f9;
+  color: #43546a;
+  font-size: 14px;
+}
+
+@media (max-width: 700px) {
+  .resume {
+    margin: 14px;
+    padding: 28px 22px;
+  }
+}
+
+@media print {
+  .resume {
+    max-width: none;
+    margin: 0;
+    padding: 16mm 18mm;
+    border: none;
+    border-radius: 0;
+    box-shadow: none;
+  }
+
+  .interaction p {
+    background: transparent;
+  }
+}

@@ -1,0 +1,63 @@
+/* Technical proficiency table */
+section {
+  margin-top: 28px;
+}
+
+.section-title {
+  margin: 0 0 12px;
+  padding-bottom: 8px;
+  border-bottom: 1px solid #d5dce4;
+  color: #173451;
+  font-size: 16px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 14px;
+}
+
+th,
+td {
+  padding: 10px 12px;
+  border-bottom: 1px solid #e2e7ed;
+  text-align: left;
+}
+
+th {
+  background: #f4f6f8;
+  color: #173451;
+  font-weight: 700;
+}
+
+td {
+  color: #38485a;
+}
+
+.level {
+  display: inline-block;
+  padding: 3px 9px;
+  border-radius: 3px;
+  background: #e9eef3;
+  color: #315a7b;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.copyright {
+  margin: 34px 0 0;
+  padding-top: 15px;
+  border-top: 1px solid #d5dce4;
+  color: #7b8795;
+  font-size: 12px;
+  text-align: center;
+}
+
+@media print {
+  th {
+    background: #ffffff;
+  }
+}

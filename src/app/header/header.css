@@ -1,0 +1,62 @@
+/* Name and contact information */
+.intro {
+  padding-bottom: 23px;
+  margin-bottom: 28px;
+  border-bottom: 2px solid #173451;
+  text-align: center;
+}
+
+.intro h1 {
+  margin: 0 0 7px;
+  color: #173451;
+  font-size: 32px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  line-height: 1.25;
+}
+
+.intro p {
+  margin: 0;
+  color: #566476;
+  font-size: 13px;
+  line-height: 1.8;
+  overflow-wrap: anywhere;
+}
+
+.intro a {
+  color: #315a7b;
+  text-decoration: none;
+}
+
+.intro a:hover {
+  text-decoration: underline;
+}
+
+/* Personal profile */
+section {
+  margin: 0 0 25px;
+}
+
+.section-title {
+  margin: 0 0 12px;
+  padding-bottom: 8px;
+  border-bottom: 1px solid #d5dce4;
+  color: #173451;
+  font-size: 16px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+section p {
+  margin: 0;
+  color: #38485a;
+  font-size: 14px;
+  line-height: 1.75;
+}
+
+@media (max-width: 600px) {
+  .intro h1 {
+    font-size: 26px;
+  }
+}
